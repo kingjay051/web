@@ -21,7 +21,7 @@ app = FastAPI(title="Casaku Webhook Receiver")
 
 WEBHOOK_SECRET = os.environ.get(
     "WEBHOOK_SECRET",
-    "cashify_8a74a142e8a80891613658bddb23f04ddd14fda7ed300b9bb687e536206ac8721c26f479bbb5e33c0cf46869ba3b40ed72f4b8ec6c6d623dd19986b58a85c376",
+    "cashify_f6e5fecf5c97805e9bc613894bdd6b0798b169bdc0f909fa1cd1b3baba4be89d0994074123e908587ebbb263f077a1b5e59bbf3dade1f5c9bf9a2e0bfad34f29",
 )
 
 logging.basicConfig(level=logging.INFO)
